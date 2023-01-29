@@ -1,11 +1,11 @@
 When visit site
-Go to homepage, has blog posts (if they exist), has nav links for homepage and dashboard, and login
+Go to homepage, has blog posts (if they exist), has nav links for homepage and dashboard, and login*
 
 When click homepage
-Goes to homepage
+Goes to homepage*
 
 When click dashboard when not logged in
-Goes to login page (with option to sign up)
+Goes to login page (with option to sign up)*
 
 When choose to sign up
 Prompted to create username and password
@@ -14,18 +14,18 @@ When click submit on sign up
 Username and password saved, then user is logged in
 
 When revisit site later, and click log in
-Asks for username and password
+Asks for username and password*
 
 When signed in
-Still see nav links for homepage and dashboard, but login becomes logout
+Still see nav links for homepage and dashboard, but login becomes logout*
 
 When click homepage
-Taken to homepage, shown existing posts with title and creation date
+Taken to homepage, shown existing posts with title and creation date*
 
 When click on existing post
 Presented with title, contents, creator's name, and creation date for that post, also can leave comment
 
-When enter a comment and click subit while signed in
+When enter a comment and click submit while signed in
 Comment is saved and post is updated to display the comment, the comment creator's name, and date created
 
 When click on dashboard in nav
@@ -41,7 +41,7 @@ When click existing post in dashboard
 Able to delete or update post, then taken back to updated dashboard based on which option choosen
 
 When click logout
-signed out of site
+signed out of site*
 
 When idle for more than a set time (30 minutes)
 Auto logged out
