@@ -8,10 +8,10 @@ When click dashboard when not logged in
 Goes to login page (with option to sign up)*
 
 When choose to sign up
-Prompted to create username and password
+Prompted to create username and password*
 
 When click submit on sign up
-Username and password saved, then user is logged in
+Username and password saved, then user is logged in*
 
 When revisit site later, and click log in
 Asks for username and password*
@@ -23,7 +23,7 @@ When click homepage
 Taken to homepage, shown existing posts with title and creation date*
 
 When click on existing post
-Presented with title, contents, creator's name, and creation date for that post, also can leave comment
+Presented with title, contents, creator's name, and creation date for that post, also can leave comment (partial *)
 
 When enter a comment and click submit while signed in
 Comment is saved and post is updated to display the comment, the comment creator's name, and date created
