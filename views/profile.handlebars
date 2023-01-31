@@ -1,0 +1,30 @@
+<div class="post-list">
+    <h2>Your Blog Posts</h2>
+{{#each posts as |post| }}
+<div class="card">
+  <div>
+    <h2 class="card-header">
+      <a href="/post/{{post.id}}">{{post.title}}</a>
+    </h2>
+    <p>Posted on {{format_date post.date_created}}</p>
+  </div>
+  <div class="card-body">
+    <p>
+      {{post.content}}
+    </p>
+  </div>
+    <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-sm btn-light" data-update-id="{{post.id}}">UPDATE</button>
+    </div>
+</div>
+{{/each}}
+</div>
+
+<div>
+    <a href="/create-post">New Post</a>
+</div>
+
+<script src="./js/profile.js"></script>

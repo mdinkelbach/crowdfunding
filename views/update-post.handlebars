@@ -1,0 +1,17 @@
+<h3>Update</h3>
+<div class="card">
+  <div>
+    <h2 class="card-header">
+      {{title}}
+    </h2>
+    <p>Posted by {{user.name}} on {{format_date date_created}}</p>
+  </div>
+  <div class="card-body">
+    <div class="form-group">
+        <textarea class="form-input" id="update-content" name="post-content">{{content}}</textarea>
+        <button type="submit" class="btn btn-primary" data-update-id="{{id}}">Update</button>
+      </div>
+  </div>
+</div>
+
+<script src="../js/update.js"></script>
