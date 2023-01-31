@@ -7,8 +7,8 @@ router.get('/', async (req, res) => {
     const postData = await Post.findAll({
       include: [
         {
-          model: Comment,
-          include: [User],
+          model: User,
+          attributes: ['id','name']
         },
       ],
     });
@@ -28,8 +28,10 @@ router.get('/post/:id', async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
       include: [
+        User,
         {
           model: Comment,
+          //attributes: ['id','name'],
           include: [User],
         },
       ],
