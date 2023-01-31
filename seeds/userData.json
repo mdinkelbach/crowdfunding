@@ -1,13 +1,16 @@
 [
     {
+      "id": 1,
       "name": "Jade",
       "password": "password12345"
     },
     {
+      "id": 2,
       "name": "River",
       "password": "password12345"
     },
     {
+      "id": 3,
       "name": "Ototo",
       "password": "password12345"
     }

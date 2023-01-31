@@ -25,3 +25,16 @@
     </div>
 </div>
 {{/each}}
+{{#if logged_in}}
+<div class="card">
+  <form class="comment-form" data-id="{{id}}">
+    <div>
+      <p>Comment:</p>
+      <input class="form-input" type="text" id="comment-content" data-id="{{id}}"/>
+    </div>
+    <button class="btn btn-primary" type="submit">Post Comment</button>
+  </form>
+</div>
+
+<script src="../js/comment.js"></script>
+{{/if}}
